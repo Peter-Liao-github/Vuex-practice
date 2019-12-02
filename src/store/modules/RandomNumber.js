@@ -18,6 +18,7 @@ export default {
       }
       return new Promise((resolve, reject) => {
         setTimeout(() => {
+          // let num = Math.random()
           commit('SET_RANDOM_NUMBER')
         }, 3000)
       })
